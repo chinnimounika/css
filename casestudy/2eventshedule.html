@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            body {
+                font-family:arial;
+            }
+            header {
+                background:green;
+                text-align:center;
+                color:white;
+                padding:20px;
+                font-weight:bold;
+            }
+             a {
+                text-decoration:none;
+                color:white;
+             }   
+            .d1 {
+                background-color:black;
+                width:100%;
+                text-align:center;
+                padding:2px;
+                word-spacing:40px;
+            }
+            .container {
+                width:1100px;
+                margin:20px;
+                margin-left:200px;
+                background:white;
+                padding:20px;
+                border-radius:5px;
+                box-shadow:0 0 10px rgba(0,0,0,0.1);
+            }
+            li {
+                display:inline;
+                font-weight:bold;
+                list-style-type:none;
+            }
+            h2 {
+                color:hwb(208 0% 0%);
+            }
+            table,tr,th,td{
+                width:1000px;
+                border-collapse:collapse;
+                border-style:solid;
+                text-align:left;
+                padding:10px;
+            }
+            th {
+                background:rgb(247, 238, 238);
+            }
+            table#alter tr:nth-child(odd){
+                background-color:beige;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to GreeksforGeeks TechCon 2025</h1>
+            <p>The Ultimae Technology and Programming Conference</p>
+        </header>
+        <div class="d1">
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="schedule">Schedule</a></li>
+                <li><a href="speakers">Speakers</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>About the Event</h2>
+            <p>GeeksforGeeks TechCon 2025 brings together leading minds in programming,Tech,
+                and innovation.Join us for a day of insightful talks,hands-on workshops, and 
+            an opportunity to network with fellow geeks and professionals from all around the world.</p>
+        </div>
+        <div class="container">
+            <table>
+            <h2>Event Schedule</h2>
+            <tr><th>Time</th><th>Session</th><th>Contest</th></tr>
+            <tr><td>9:00 AM</td><td>Opening Keynote</td><td>GeeksforGeeks Coding Platform</td></tr>
+            <tr><td>10:30 AM</td><td>Understanding AI and Machine Learning</td><td>Mr.Aravind Kumar</td></tr>
+            <tr><td>1:00 PM</td><td>Lunch Break</td><td>-</td></tr>
+            <tr><td>2:00 PM</td><td>Exploring the Future of Cloud Computing</td><td>Ms.Neha Gupta</td></tr>
+            </table>
+        </div>
+    </body>
+</html>

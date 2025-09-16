@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            body {
+                font-family:arial,sans-serif;
+                margin-left:500px;
+            }
+            .container {
+                background:#fff;
+                border:solid;
+                border-color:white;
+                padding:15px;
+                width: 420px;
+                outline-style:solid;
+                outline-width:10px;
+                outline-color:green;
+            }
+            label {
+                display:block;
+                margin-top:10px;
+            }
+            input[type="text"],select,textarea{
+                width:100%;
+                padding:5px;
+                margin-top:5px;
+            }
+            button{
+                width:100%;
+                padding:5px;
+                margin-top:10px;
+                background-color:green;
+                color:black;
+                font-size:medium;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="na" placeholder="Enter your name" required auto-focus>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="eid" placeholder="Enter your email">
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age" placeholder="Enter your age">
+            <label for="des">Which option best describes you?</label>
+            <select id="des" name="des">
+                <option>Student</option><option>Working student</option>
+                <option>Employee</option><option>Tutor</option>
+                <option>ResearchAssistant</option>
+            </select><br>
+            <label for="geeks">Would you recommend GeeksforGeeks to a friend?</label>
+            <input type="radio" value="yes" name="geeks">Yes<br>
+            <input type="radio" value="no" name="geeks">No<br>
+            <input type="radio" value="maybe" name="geeks">Maybe
+            <label for="lang">Languages and Frameworks known(Check all that apply)</label>
+            <input type="checkbox" name="lang" value="c">C<br>
+            <input type="checkbox" name="lang" value="c++">C++<br>
+            <input type="checkbox" name="lang" value="c#">C#<br>
+            <input type="checkbox" name="lang" value="java">Java<br>
+            <input type="checkbox" name="lang" value="python">Python<br>
+            <input type="checkbox" name="lang" value="javascript">JavaScript<br>
+            <input type="checkbox" name="lang" value="react">React<br>
+            <input type="checkbox" name="lang" value="angular">Angular<br>
+            <input type="checkbox" name="lang" value="django">Django<br>
+            <input type="checkbox" name="lang" value="spring">Spring
+            <label for="cmts">Any comments or suggestions</label>
+            <textarea name="cmts" placeholder="Enter your comment here"></textarea>
+            <button type="submit" value="submit" onclick="submit()">Submit</button>
+        </form>
+        </div>
+    </body>
+</html>
